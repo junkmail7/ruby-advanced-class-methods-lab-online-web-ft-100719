@@ -16,4 +16,3 @@ class Song
   end
 
 end
-Song.new
