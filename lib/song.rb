@@ -15,3 +15,4 @@ class Song
   end
 
 end
+song = Song.create
