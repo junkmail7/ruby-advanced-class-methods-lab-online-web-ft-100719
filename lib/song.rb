@@ -15,5 +15,10 @@ class Song
   def save
     self.class.all << self
   end
-
+  
+  def self.new_by_name(songname)
+    song=Song.new
+    song.name=songname
+    song
+  end
 end
